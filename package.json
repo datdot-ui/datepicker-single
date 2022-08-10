@@ -1,0 +1,37 @@
+{
+  "name": "datdot-ui-datepicker-single",
+  "version": "0.0.4-alpha",
+  "description": "datdot ui datepicker-single",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --open --live --cors",
+    "build": "browserify demo/demo.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datdot-ui/datepicker-single.git"
+  },
+  "keywords": [
+    "datdot",
+    "ui",
+    "datepicker-single",
+    "list"
+  ],
+  "author": "datdotorg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datdot-ui/datepicker-single/issues"
+  },
+  "homepage": "https://github.com/datdot-ui/datepicker-single#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "budo": "^11.6.4"
+  },
+  "dependencies": {
+    "protocol-maker": "github:datdotorg/protocol-maker#v0.0.1-alpha",
+    "date-fns": "^2.28.0",
+    "month-selector": "git+https://github.com/datdot-ui/month-selector.git#v0.0.4-alpha",
+    "day-selector-single": "git+https://github.com/datdot-ui/day-selector-single.git#v0.0.4-alpha"
+  }
+}
